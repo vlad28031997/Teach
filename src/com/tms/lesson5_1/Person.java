@@ -18,7 +18,7 @@ public class Person {
         return getName()+getSecondname();
     }
 
-    private String getName() {
+    public String getName() {
         return name;
     }
     private String getSecondname() {

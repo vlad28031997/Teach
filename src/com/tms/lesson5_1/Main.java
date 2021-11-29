@@ -17,8 +17,8 @@ public class Main {
         director1.addWorker(director2);
 
 
-        System.out.println(director1.toString());
-
+        Searcher searcher=new SearcherImpl();
+        searcher.findByName(director2,"Petr");
 
 
     }

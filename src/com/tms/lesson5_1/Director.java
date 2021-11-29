@@ -5,8 +5,11 @@ import java.util.Arrays;
 public class Director extends Employee {
 
 
+    public Employee[] getEmployees() {
+        return Arrays.copyOf(employees,10);
+             }
 
-    Employee[] employees = new Employee[10];
+    private    Employee[] employees = new Employee[10];
 
     public int getCurrWorker() {
         return employees.length;
@@ -51,4 +54,5 @@ public class Director extends Employee {
                 " лет, работники=" + Arrays.toString(employees) +
                 '}';
     }
+
 }
