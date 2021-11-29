@@ -45,6 +45,7 @@ public class User {
     private Sex getSex() {
         return sex;
     }
+
     @Deprecated
     public String getNameSurname() {
         return getName()+" "+getSurname();

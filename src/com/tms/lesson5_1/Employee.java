@@ -1,11 +1,12 @@
 package com.tms.lesson5_1;
 
 public abstract class Employee {
+    protected Person person;
+    protected Prof prof;
+    protected int time;
 
-    private Prof prof;
-    private int time;
-
-    public Employee(Prof prof, int time) {
+    public Employee(Person person,Prof prof, int time) {
+        this.person=person;
         this.prof = prof;
         this.time = time;
     }
