@@ -9,10 +9,6 @@ public class Worker extends Employee {
     public Worker(Person person,Prof prof, int time) {
         super(person,prof, time);
     }
-//Задаю должность
-    public void newProf(Prof prof) {
-        this.prof=prof;
-    }
 
     @Override
     public String toString() {
