@@ -18,8 +18,10 @@ public class Main {
 
 
         Searcher searcher=new SearcherImpl();
-        searcher.findByName(director2,"Petr");
-
+        director2.findByName(director2,"Petr");
+        /*
+        Director.findByName(director2,"Petr");
+*/
 
     }
 }
