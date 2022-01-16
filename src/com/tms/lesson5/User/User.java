@@ -61,7 +61,7 @@ public void ageUp(){
 
 
 
-    @Override
+    
     public String toString() {
         return super.toString()+"перегруженный";
     }
